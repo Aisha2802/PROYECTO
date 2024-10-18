@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if(pass=="1234"){
                    message.style.color="green";
                    message.innerHTML="Datos, correctos :)"
-                   window.location.href = "principal.html";
+                   window.location.href = "index.html";
                 }else{
                  message.style.color="red";
                  message.innerHTML="usuario y/o contraseña incorrectos"
